@@ -25,10 +25,7 @@ const sequelize = new Sequelize(
     {
         host: 'localhost',
         dialect: 'mysql',
-        port: 3306,
-        dialectOptions: {
-            socketPath: "/var/run/mysqld/mysqld.sock"
-        }
+        port: 3306
     }
 );
 
