@@ -6,11 +6,11 @@
     --dark: #201110;
     --border-radius: 0.3rem;
   }
-  
+
   * {
     box-sizing: border-box;
   }
-  
+
   body {
     background-color: var(--primary);
     margin: 0;
@@ -20,7 +20,7 @@
     line-height: 1.5;
     font-size: 24px;
   }
-  
+
   h1,
   h2,
   h3,
@@ -31,18 +31,18 @@
     color: var(--dark);
     line-height: 1.25;
   }
-  
+
   .link-color {
     color: var(--tertiary);
     padding: 10px;
     margin: 10px;
   }
-  
+
   main {
     margin: 20px auto;
     width: 94%;
   }
-  
+
   .wrapper {
     width: 100%;
     min-height: 100%;
@@ -50,11 +50,11 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   p {
     font-size: 1.2rem;
   }
-  
+
   .btn {
     font-size: 1.3rem;
     text-decoration: none;
